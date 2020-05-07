@@ -26,8 +26,9 @@ class Song
       if search == name.name
         answer = name
       end
+      answer
     end
-    answer
+
   end
 
   def self.all
