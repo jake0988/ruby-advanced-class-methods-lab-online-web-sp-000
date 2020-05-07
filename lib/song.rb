@@ -57,8 +57,8 @@ class Song
     file = self.new
      new_string = string.split(" - ")
      second_string = string.split(".")
-     artist_name = string[0]
-     song = string[1]
+     artist_name = new_string[0]
+     song = second_string[0]
      file.name = song
      artist_name = artist_name
     # @name = song
