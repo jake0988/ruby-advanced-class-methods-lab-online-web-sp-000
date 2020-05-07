@@ -49,7 +49,7 @@ class Song
 
   def self.alphabetical
     alph = []
-    @@all.sort
+    @@all.name.sort
     @@all
   end
 end
