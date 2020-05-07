@@ -58,8 +58,8 @@ class Song
     parse = string.slice!(".mp3")
     artist = string[0]
     song = string[1]
-    @name = song
-    @artist = artist
+    # @name = song
+    # @artist = artist
   end
 
 end
