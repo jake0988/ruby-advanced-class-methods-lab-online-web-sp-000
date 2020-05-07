@@ -61,6 +61,7 @@ class Song
      song = second_string[0]
      file.name = song
      file.artist_name = artist
+     file
 
     # @name = song
     # @artist = artist
