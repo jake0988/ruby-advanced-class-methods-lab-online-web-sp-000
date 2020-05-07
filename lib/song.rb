@@ -23,7 +23,7 @@ class Song
 
   def self.find_by_name(search)
     @@all.each do |name|
-      if search == name
+      if search.name == name
         name
       end
     end
