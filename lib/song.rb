@@ -60,7 +60,7 @@ class Song
      artist_name = new_string[0]
      song = second_string[0]
      file.name = song
-     artist_name = artist_name
+     
     # @name = song
     # @artist = artist
   end
