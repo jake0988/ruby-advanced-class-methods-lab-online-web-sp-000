@@ -59,8 +59,8 @@ class Song
     #  string.slice ".mp3"
      artist_name = string[0]
      song = string[1]
-     file.name = song
-     file.artist_name = artist_name
+     self.name = song
+     self.artist_name = artist_name
     # @name = song
     # @artist = artist
   end
