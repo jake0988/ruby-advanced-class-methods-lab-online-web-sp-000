@@ -49,10 +49,10 @@ class Song
 
   def self.alphabetical
     names = []
-    @@all.collect do |song|
-    names << song
-    end
-    names.name.sort
+    # @@all.collect do |song|
+    # names << song
+    # end
+    @@all.name.sort
     names
   end
 end
