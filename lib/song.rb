@@ -21,10 +21,9 @@ class Song
     @@all.each do |name|
       if search == name
         name
-      else
-        false
       end
     end
+    false
   end
 
   def self.all
