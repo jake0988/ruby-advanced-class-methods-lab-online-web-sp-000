@@ -55,5 +55,6 @@ class Song
   def self.new_from_filename(artist, name)
     file = self.new
     file = "#{artist} - {name}"
+  end
 
 end
