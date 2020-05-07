@@ -58,8 +58,8 @@ class Song
      new_string = string.split(" - ")
      second_string = string.split(".")
      artist_name = new_string[0]
-     song = second_string[0]
-     file.name = song
+     @song = second_string[0]
+     file.name = @song
 
     # @name = song
     # @artist = artist
