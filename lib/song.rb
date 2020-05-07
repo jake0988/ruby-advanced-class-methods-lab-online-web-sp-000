@@ -52,7 +52,7 @@ class Song
     @@all.collect do |song|
     names << song
     end
-    names.names.sort
+    names.name.sort
     names
   end
 end
