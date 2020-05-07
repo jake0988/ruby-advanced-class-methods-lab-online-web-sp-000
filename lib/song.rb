@@ -53,6 +53,6 @@ class Song
     # names << song
     # end
     @@all.name.sort
-    names
+  
   end
 end
