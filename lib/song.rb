@@ -31,7 +31,7 @@ class Song
     answer[0]
   end
 
-  .find_or_create_by_name(name)
+  def .find_or_create_by_name(name)
     if name.find_by_name
       name.name
     else
