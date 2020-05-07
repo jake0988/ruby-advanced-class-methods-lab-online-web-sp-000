@@ -52,9 +52,9 @@ class Song
      @@all.sort_by { |song| song.name }
   end
 
-  def self.new_from_filename(artist, name)
+  def self.new_from_filename(name)
     file = self.new
-    file = "#{artist} - #{name}"
+    parse = name.split("-")
   end
 
 end
