@@ -60,6 +60,8 @@ class Song
     song = name[1]
     @name = song
     @artist = artist
+    @name
+    @artist
   end
 
 end
