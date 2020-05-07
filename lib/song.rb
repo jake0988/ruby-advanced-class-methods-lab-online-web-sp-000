@@ -57,7 +57,7 @@ class Song
      string = string.split(" - ")
      string = string.slice!(".mp3")
      artist_name = string[0]
-    # song = string[1]
+     song = string[1]
     # file.name = song
     # file.artist_name = artist
     # @name = song
