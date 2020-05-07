@@ -51,7 +51,7 @@ class Song
     # @@all.collect each |song|
     #   song.name
     # end
-    # @@all.sort
-    # @@all
+    @@all.sort
+    @@all
   end
 end
