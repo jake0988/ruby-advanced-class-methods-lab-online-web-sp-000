@@ -53,7 +53,7 @@ class Song
   end
 
   def self.new_from_filename(string)
-    # file = self.new
+    file = self.new
     # parse = string.split(" - ")
     # parse = string.slice!(".mp3")
     # artist = string[0]
