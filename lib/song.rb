@@ -27,7 +27,6 @@ class Song
         name
       end
     end
-    false
   end
 
   def self.all
