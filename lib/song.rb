@@ -59,7 +59,7 @@ class Song
      second_string = string.split(".")
      artist_name = new_string[0]
      song = second_string[0]
-     @song = song
+     
 
     # @name = song
     # @artist = artist
