@@ -67,7 +67,7 @@ class Song
     # @artist = artist
   end
 
-  def self.create_from_filename
+  def self.create_from_filename(string)
     new_string = string.split(" - ")
     second_string = new_string[1].split(".")
     artist = new_string[0]
