@@ -47,4 +47,9 @@ class Song
     @@all << self
   end
 
+  def self.alphabetical
+    alph = []
+    alph = @@all.sort
+    alph
+  end
 end
