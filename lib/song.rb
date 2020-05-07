@@ -48,11 +48,11 @@ class Song
   end
 
   def self.alphabetical
-    alph = []
-    @@all.collect each |song|
-      song.name
-    end
-    @@all.sort
-    @@all
+    # alph = []
+    # @@all.collect each |song|
+    #   song.name
+    # end
+    # @@all.sort
+    # @@all
   end
 end
