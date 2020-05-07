@@ -68,6 +68,13 @@ class Song
   end
 
   def self.create_from_filename
+    new_string = string.split(" - ")
+    second_string = new_string[1].split(".")
+    artist = new_string[0]
+    song = second_string[0]
+    file.name = song
+    file.artist_name = artist
+    @@all << file
 
   end
 
