@@ -29,7 +29,7 @@ class Song
       end
 
     end
-      answer
+      answer[0]
   end
 
   def self.all
