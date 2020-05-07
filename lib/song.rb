@@ -53,7 +53,7 @@ class Song
   end
 
   def self.new_from_filename(artist, name)
-    file = "#{artist} - {name}"
+    file = "#{artist} - #{}{name}"
     file
   end
 
