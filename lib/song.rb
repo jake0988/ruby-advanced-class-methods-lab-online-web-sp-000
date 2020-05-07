@@ -32,7 +32,11 @@ class Song
   end
 
   .find_or_create_by_name(name)
-    song.name = name
+    if name.find_by_name
+      name.name
+    else
+      name.create_by_name
+    end
   end
 
   def self.all
