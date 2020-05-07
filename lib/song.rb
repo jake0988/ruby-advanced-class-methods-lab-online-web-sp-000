@@ -32,7 +32,7 @@ class Song
   end
 
   .find_or_create_by_name(name)
-
+    song.name = name
   end
 
   def self.all
