@@ -52,7 +52,8 @@ class Song
      @@all.sort_by { |song| song.name }
   end
 
-  def self.new_from_filename
-    @song = self.new
-    @artist = self.new
+  def self.new_from_filename 
+    file = self.new
+    file = "#{artist} - {name}"
+
 end
