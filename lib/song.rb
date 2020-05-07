@@ -50,8 +50,9 @@ class Song
   def self.alphabetical
     alph = []
     @@all.collect each |song|
-    song.name
+      song.name
     end
     @@all.sort
+    @@all
   end
 end
