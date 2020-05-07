@@ -17,6 +17,14 @@ class Song
     save(name)
   end
 
+  def self.find_by_name(search)
+    @@all.each do |name|
+      if search == name
+        name
+      end
+    end
+  end
+  
   def self.all
     @@all
   end
