@@ -52,12 +52,12 @@ class Song
      @@all.sort_by { |song| song.name }
   end
 
-  def self.new_from_filename(name)
+  def self.new_from_filename(string)
     file = self.new
-    parse = name.split("-")
-    parse = name.slice!(".mp3")
-    artist = name[0]
-    song = name[1]
+    parse = string.split("-")
+    parse = string.slice!(".mp3")
+    artist = string[0]
+    song = string[1]
     @name = song
     @artist = artist
     @name
